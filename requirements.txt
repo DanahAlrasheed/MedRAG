@@ -1,0 +1,25 @@
+# MedRAG — Python Dependencies
+# Install with: pip install -r requirements.txt
+# Tested on: Python 3.11, CUDA 12.x, Google Colab T4
+
+# ── Core ML ─────────────────────────────────────────────────
+torch>=2.0.0
+transformers>=4.40.0
+accelerate>=0.27.0
+sentence-transformers>=2.7.0
+
+# ── Retrieval ────────────────────────────────────────────────
+faiss-cpu>=1.7.4
+rank-bm25>=0.2.2
+
+# ── Document Processing ──────────────────────────────────────
+langchain-text-splitters>=0.2.0
+
+# ── UI ───────────────────────────────────────────────────────
+gradio>=4.0.0
+
+# ── Evaluation ───────────────────────────────────────────────
+ragas>=0.1.0
+datasets>=2.0.0
+langchain-huggingface>=0.1.0
+langchain>=0.2.0
